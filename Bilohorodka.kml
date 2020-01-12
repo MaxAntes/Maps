@@ -134,9 +134,9 @@
     <Folder>
       <name>1</name>
       <Placemark>
-        <name>Територія 1
+        <name>1
 </name>
-        <description>https://docs.google.com/spreadsheets/d/1nCh-fKlid6g4ANR5w5amOij0cu3ZS3NfiXWnuNudqtQ/edit#gid=0</description>
+        <description>1</description>
         <styleUrl>#poly-880E4F-1200-76</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -172,9 +172,9 @@
     <Folder>
       <name>2</name>
       <Placemark>
-        <name>Територія 2
+        <name>2
 </name>
-        <description>https://docs.google.com/spreadsheets/d/1nCh-fKlid6g4ANR5w5amOij0cu3ZS3NfiXWnuNudqtQ/edit#gid=1241538932</description>
+        <description>2</description>
         <styleUrl>#poly-0288D1-1200-76</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -204,10 +204,10 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>Слой без названия</name>
+      <name>3</name>
       <Placemark>
-        <name>Територія 3</name>
-        <description>https://docs.google.com/spreadsheets/d/1nCh-fKlid6g4ANR5w5amOij0cu3ZS3NfiXWnuNudqtQ/edit#gid=2057681213</description>
+        <name>3</name>
+        <description>3</description>
         <styleUrl>#poly-097138-1200-76</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -231,11 +231,11 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>Слой без названия</name>
+      <name>4</name>
       <Placemark>
-        <name>Територія 4
+        <name>4
 </name>
-        <description>https://docs.google.com/spreadsheets/d/1nCh-fKlid6g4ANR5w5amOij0cu3ZS3NfiXWnuNudqtQ/edit#gid=736676729</description>
+        <description>4</description>
         <styleUrl>#poly-9C27B0-1200-76</styleUrl>
         <Polygon>
           <outerBoundaryIs>
