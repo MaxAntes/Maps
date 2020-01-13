@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Map</name>
+    <description/>
+    <Style id="poly-0288D1-1200-77-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-1200-77-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-673AB7-1200-77-normal">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-673AB7-1200-77-highlight">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-673AB7-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-673AB7-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-673AB7-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-EDA29B-1200-77-normal">
+      <LineStyle>
+        <color>ff9ba2ed</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d9ba2ed</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-EDA29B-1200-77-highlight">
+      <LineStyle>
+        <color>ff9ba2ed</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d9ba2ed</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-EDA29B-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-EDA29B-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-EDA29B-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-1200-77-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-1200-77-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>1</name>
+      <Placemark>
+        <name>Територія 1</name>
+        <description><![CDATA[<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJLeejB2GBTTHxsIE7lHD-AVoeJjjcxVmSYdAwjlUGmclRYnDMnBqA3TN-zKDtK9M16u43pn8k9KIf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>]]></description>
+        <styleUrl>#poly-EDA29B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                30.2274367,50.3753357,0
+                30.2190682,50.3761294,0
+                30.2173302,50.3743093,0
+                30.2284452,50.3711753,0
+                30.2286813,50.373543,0
+                30.2274367,50.3753357,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Територія 2</name>
+        <description><![CDATA[<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJLeejB2GBTTHxsIE7lHD-AVoeJjjcxVmSYdAwjlUGmclRYnDMnBqA3TN-zKDtK9M16u43pn8k9KIf/pubhtml?gid=1241538932&amp;single=true&amp;widget=true&amp;headers=false"></iframe>]]></description>
+        <styleUrl>#poly-0288D1-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                30.2172731,50.3742257,0
+                30.2148055,50.3716255,0
+                30.2269505,50.3674648,0
+                30.2275943,50.3677249,0
+                30.2284526,50.3710644,0
+                30.2172731,50.3742257,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Територія 3</name>
+        <description><![CDATA[<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJLeejB2GBTTHxsIE7lHD-AVoeJjjcxVmSYdAwjlUGmclRYnDMnBqA3TN-zKDtK9M16u43pn8k9KIf/pubhtml?gid=2057681213&amp;single=true&amp;widget=true&amp;headers=false"></iframe>]]></description>
+        <styleUrl>#poly-673AB7-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                30.2285169,50.3748963,0
+                30.228989,50.3740615,0
+                30.2290963,50.371776,0
+                30.2284097,50.3696273,0
+                30.2352547,50.3673006,0
+                30.2384733,50.3738973,0
+                30.2321433,50.3751973,0
+                30.2285169,50.3748963,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Територія 4</name>
+        <description><![CDATA[<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJLeejB2GBTTHxsIE7lHD-AVoeJjjcxVmSYdAwjlUGmclRYnDMnBqA3TN-zKDtK9M16u43pn8k9KIf/pubhtml?gid=736676729&amp;single=true&amp;widget=true&amp;headers=false"></iframe>]]></description>
+        <styleUrl>#poly-FFEA00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                30.2284097,50.3696273,0
+                30.2279533,50.367048,0
+                30.229627,50.3661447,0
+                30.2344121,50.3648033,0
+                30.2352547,50.3673006,0
+                30.2284097,50.3696273,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
