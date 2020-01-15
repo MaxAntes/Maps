@@ -37,9 +37,16 @@
       color: #818181;
       display: block;
       }
-        @media screen and (max-height: 450px) {
-      .sidebar {padding-top: 15px;}
-      .sidebar a {font-size: 18px;}
+      #sidebar.closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      }
+      @media screen and (max-height: 450px) {
+      #sidebar {padding-top: 15px;}
+      #sidebar a {font-size: 18px;}
       }
 
       body {
@@ -52,13 +59,25 @@
 
   <body>
 
-    <div id="sidebar"></div>
+    <div id="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+      
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
     <div id="map"></div>
 
     <script>
       var map;
       var sidediv;
+        
+        function openNav() {
+        document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
+        }
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
