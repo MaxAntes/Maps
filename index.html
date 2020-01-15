@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <style>
       #map {
-        height: 100%;
+        height: 97.3%;
       }
       html, body {
         min-width: 1280px;
@@ -16,42 +16,49 @@
         padding: 0;
       }
 
-      #sidebar {
-      height: 100%;
-      width: 500px;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #edebe8;
-      overflow-x: hidden;
-      padding-top: 20px;
-      border-style: dashed;
-      border-width: 2px;
-      border-color: #818181;
-      }
-      #sidebar a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      }
-      #sidebar.closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-      }
-      @media screen and (max-height: 450px) {
-      #sidebar {padding-top: 15px;}
-      #sidebar a {font-size: 18px;}
-      }
-
       body {
-      font-family: "Lato", sans-serif;
-      }
+  font-family: "Lato", sans-serif;
+}
+
+#sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #edebe8;
+  border-right: #818181, 5px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  #sidebar {padding-top: 15px;}
+  #sidebar a {font-size: 18px;}
+}
       
       
     </style>
@@ -63,26 +70,18 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
       
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <span style="background:#f1f1f1;color:#818181;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
     <div id="map"></div>
 
     <script>
       var map;
       var sidediv;
-        
-        function openNav() {
-        document.getElementById("sidebar").style.width = "250px";
-        }
-
-        function closeNav() {
-        document.getElementById("sidebar").style.width = "0";
-        }
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
         center: new google.maps.LatLng(50.3710, 30.2128),
-        zoom: 13.75,
+        zoom: 13,
         disableDefaultUI: true,
         });
         
@@ -102,6 +101,14 @@
         sidediv.innerHTML = content;
         }
       }
+
+      function openNav() {
+        document.getElementById("sidebar").style.width = "400px";
+        }
+
+        function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
+        }
         
 
     </script>
