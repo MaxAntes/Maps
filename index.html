@@ -70,7 +70,8 @@
   margin-left: 50px;
  }
 
- @media screen and (max-height: 450px) {
+ @media screen and (max-width: 330px) {
+  #map {width = 330px}
   #sidebar {padding-top: 15px;}
   #sidebar a {font-size: 18px;}
  }
@@ -92,7 +93,7 @@
     <script>
 
         function openNav() {
-        document.getElementById("sidebar").style.width = "300px";
+        document.getElementById("sidebar").style.width = "330px";
         }
 
         function closeNav() {
