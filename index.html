@@ -36,6 +36,7 @@
   z-index: 1;
   top: 0;
   left: 0;
+  border-right: dashed #818181;
   background-color: #edebe8;
   overflow-x: hidden;
   transition: 0.5s;
@@ -88,6 +89,7 @@
     </div>
 
     <div id="sidebar" style="color: #edebe8">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJLeejB2GBTTHxsIE7lHD-AVoeJjjcxVmSYdAwjlUGmclRYnDMnBqA3TN-zKDtK9M16u43pn8k9KIf/pubhtml" style="height: 93%;width: 433px;"></iframe> 
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
 
@@ -124,7 +126,7 @@
         showInContentWindow(content);
         });
         function showInContentWindow(content) {
-        var sidediv = document.getElementById('sidebar');
+        var sidediv = document.getElementById('field');
         sidediv.innerHTML = content;
         }
       }
